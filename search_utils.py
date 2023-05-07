@@ -17,7 +17,7 @@ class PitchCollection:
         self.current_collections = {
             'bbc': Collection('bbc_news')
         }
-        os.environ["OPENAI_API_KEY"] = "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"
+        os.environ["OPENAI_API_KEY"] = ""
         openai.api_key = os.getenv("OPENAI_API_KEY")
 
         for key in self.current_collections.keys():
